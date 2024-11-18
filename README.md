@@ -123,7 +123,7 @@ Adjust `Wait Until Element Is Visible` timeouts to handle slower networks or web
 
 By default, the script expects a CSV file in this format:
 ```csv
-title,summary,event_type,Timestamp
+title,summary,event_type,timestamp
 Morning Walk,"A quick 15-minute walk outside.",EXERCISE,2024-01-01 07:00:00
 Lunch,"Had a healthy salad.",MEAL,2024-01-01 12:30:00
 ```
@@ -131,7 +131,7 @@ Lunch,"Had a healthy salad.",MEAL,2024-01-01 12:30:00
 - **title**: A short title for the event.
 - **summary**: Detailed information about the event.
 - **event_type**: A category for the event, matched to `&{EVENT_COLORS}`.
-- **Timestamp**: Event date and time in `YYYY-MM-DD HH:MM:SS` format.
+- **timestamp**: Event date and time in `YYYY-MM-DD HH:MM:SS` format.
 
 ---
 
