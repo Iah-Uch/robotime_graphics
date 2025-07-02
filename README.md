@@ -24,10 +24,6 @@ It provides a foundational structure that you **must adapt** to your specific ne
 - **Robot Framework** 
 - **SeleniumLibrary** for Robot Framework
 
-```bash
-pip install robotframework robotframework-seleniumlibrary
-```
-
 ### System Requirements
 - A stable internet connection.
 - Access to a Time Graphics account with valid credentials.
